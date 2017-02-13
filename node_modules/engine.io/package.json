@@ -1,0 +1,48 @@
+{
+  "name": "engine.io",
+  "version": "1.6.10",
+  "description": "The realtime engine behind Socket.IO. Provides the foundation of a bidirectional connection between client and server",
+  "main": "./lib/engine.io",
+  "author": "Guillermo Rauch <guillermo@learnboost.com>",
+  "homepage": "https://github.com/socketio/engine.io",
+  "contributors": [
+    {
+      "name": "Eugen Dueck",
+      "web": "https://github.com/EugenDueck"
+    },
+    {
+      "name": "Afshin Mehrabani",
+      "web": "https://github.com/afshinm"
+    },
+    {
+      "name": "Christoph Dorn",
+      "web": "https://github.com/cadorn"
+    },
+    {
+      "name": "Mark Mokryn",
+      "email": "mokesmokes@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "base64id": "0.1.0",
+    "debug": "2.2.0",
+    "ws": "1.0.1",
+    "engine.io-parser": "1.2.4",
+    "accepts": "1.1.4"
+  },
+  "devDependencies": {
+    "engine.io-client": "1.6.10",
+    "expect.js": "0.2.0",
+    "mocha": "2.3.4",
+    "s": "0.1.1",
+    "superagent": "0.15.4"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:socketio/engine.io.git"
+  }
+}

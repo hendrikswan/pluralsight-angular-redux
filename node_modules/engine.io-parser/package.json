@@ -1,0 +1,28 @@
+{
+  "name": "engine.io-parser",
+  "description": "Parser for the client for the realtime Engine",
+  "version": "1.2.4",
+  "homepage": "https://github.com/Automattic/engine.io-parser",
+  "devDependencies": {
+    "expect.js": "0.3.1",
+    "mocha": "2.2.5",
+    "zuul": "3.7.3",
+    "zuul-ngrok": "3.2.0"
+  },
+  "dependencies": {
+    "after": "0.8.1",
+    "arraybuffer.slice": "0.0.6",
+    "base64-arraybuffer": "0.1.2",
+    "blob": "0.0.4",
+    "has-binary": "0.1.6",
+    "utf8": "2.1.0"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Automattic/engine.io-parser.git"
+  },
+  "browser": "./lib/browser.js"
+}
