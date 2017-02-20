@@ -2970,6 +2970,10 @@ negotiator@0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
 
+ng2-redux@^5.1.2:
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/ng2-redux/-/ng2-redux-5.1.2.tgz#db26b583fb70cd116d41f825471252a6711cc572"
+
 no-case@^2.2.0:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/no-case/-/no-case-2.3.1.tgz#7aeba1c73a52184265554b7dc03baf720df80081"
