@@ -5,8 +5,8 @@
   "angular-cli": {},
   "scripts": {
     "ng": "node_modules/@angular/cli/bin/ng",
-    "start": "node_modules/@angular/cli/bin/ng serve",
-    "test": "node_modules/@angular/cli/bin/ng test",
+    "start": "node ./node_modules/@angular/cli/bin/ng serve",
+    "test": "node ./node_modules/@angular/cli/bin/ng test",
     "lint": "node_modules/@angular/cli/bin/ng lint",
     "e2e": "node_modules/@angular/cli/bin/ngng e2e"
   },
