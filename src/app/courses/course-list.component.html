@@ -6,7 +6,7 @@
   <filter-text (changed)="filterChanged($event)"></filter-text>
 
   <ul class="courses">
-    <li *ngFor="let course of filteredCourses">
+    <li *ngFor="let course of filteredCourses$ | async">
 
       <div class="mdl-card mdl-shadow--2dp">
         <div class="mdl-card__title">
